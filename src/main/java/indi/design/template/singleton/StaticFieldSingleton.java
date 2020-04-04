@@ -4,6 +4,8 @@ import indi.design.template.common.LayoutPrint;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
+ * 饿汉式
+ *
  * @author tjx
  * @since 2020-4-4
  */

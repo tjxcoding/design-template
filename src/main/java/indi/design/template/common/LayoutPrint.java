@@ -11,11 +11,9 @@ public class LayoutPrint {
 
     public static void printMsg(String msg){
         System.out.println(msg);
-        log.info(msg);
     }
 
     public static void printMsg(DesignEnum designEnum, String msg){
         System.out.println(designEnum.getDesc() + " : " + msg);
-        log.info(designEnum.getDesc() + " : " + msg);
     }
 }
