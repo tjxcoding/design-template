@@ -10,6 +10,7 @@ import indi.design.template.proxy.stat.StaticProxy;
  */
 public class ProxyTest {
     public static void main(String[] args) {
+        System.out.println(System.getProperty("user.dir"));
         staticProxy();
         commonDynamicProxy();
     }
