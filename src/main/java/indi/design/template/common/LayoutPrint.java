@@ -13,6 +13,10 @@ public class LayoutPrint {
         System.out.println(msg);
     }
 
+    public static void printMsg(Throwable e){
+        System.err.println(e.getMessage());
+    }
+
     public static void printMsg(DesignEnum designEnum, String msg){
         System.out.println(designEnum.getDesc() + " : " + msg);
     }
